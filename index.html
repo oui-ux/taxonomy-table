@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Taxonomy Table</title>
+
+  <!-- CSS intentionally unchanged -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="app">
+
+    <!-- HEADER -->
+    <header class="header">
+      <h1>Taxonomy Table</h1>
+      <p class="sub">Select a CI, search, and click a row to populate taxonomy.</p>
+    </header>
+
+    <!-- CONTROLS -->
+    <section class="card controls">
+      <div class="field">
+        <label for="ciSelect">CI</label>
+        <select id="ciSelect">
+          <option value="" disabled selected>— Select CI —</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="searchInput">Search (any column)</label>
+        <input id="searchInput" type="search" placeholder="e.g., drivers, BIOS, reimage…" disabled />
+      </div>
+
+      <div class="actions">
+        <button id="clearBtn" class="btn" disabled>Clear</button>
+      </div>
+    </section>
+
+    <!-- SELECTED TAXONOMY -->
+    <section class="card selected">
+      <div class="selected-head">
+        <h2>Selected Taxonomy</h2>
+        <span class="hint">Click a row in the table to populate this.</span>
+      </div>
+
+      <div class="selected-grid">
+        <div class="pill"><span class="k">CI</span><span id="s_ci" class="v">—</span></div>
+        <div class="pill"><span class="k">Category</span><span id="s_cat" class="v">—</span></div>
+        <div class="pill"><span class="k">Sub Category</span><span id="s_sub" class="v">—</span></div>
+        <div class="pill"><span class="k">Role Component</span><span id="s_role" class="v">—</span></div>
+        <div class="pill"><span class="k">Close Code</span><span id="s_close" class="v">—</span></div>
+        <div class="pill"><span class="k">Sub CloseCode</span><span id="s_subclose" class="v">—</span></div>
+      </div>
+
+      <div class="path-wrap">
+        <div class="path-label">Path</div>
+        <div id="pathText" class="path">—</div>
+
+      
+      </div>
+    </section>
+
+    <!-- TABLE -->
+    <section class="card table-card">
+      <div class="table-head">
+        <h2 id="tableTitle">No CI selected</h2>
+        <span id="tableMeta" class="hint">—</span>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>CI</th>
+              <th>Category</th>
+              <th>Sub Category</th>
+              <th>Role Component</th>
+              <th>Close Code</th>
+              <th>Sub CloseCode</th>
+              <th>KB</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+
+<!-- INIT FIRST -->
+<script src="data/_init.js"></script>
+
+  <script src="data/windows11.js"></script>
+<script src="data/cloud-mfa.js"></script>
+<script src="data/azure-vpn.js"></script>
+<script src="data/ios-new.js"></script>
+<script src="data/android.js"></script>
+<script src="data/identity-pass.js"></script>
+<script src="data/power-bi.js"></script>
+<script src="data/mac-os.js"></script>
+<!--<script src="data/teams-client-pc.js"></script> (needs to be fixed still )-->
+<script src="data/windows10.js"></script>
+<script src="data/physical-smartcard.js"></script>
+<script src="data/physical-smartcard.js"></script>
+<script src="data/physical-smartcard.js"></script>
+<script src="data/microsoft-dev-box.js"></script>
+<script src="data/authenticator-app-android.js"></script>
+<script src="data/outlook-for-android.js"></script>
+<script src="data/globalprotect-desktop.js"></script>
+<script src="data/outlook-for-mac.js"></script>
+<script src="data/authenticator-app-ios.js"></script>
+<script src="data/outlook-for-ios.js"></script>
+<script src="data/windows-hello.js"></script>
+<script src="data/outlook-for-windows-classic.js"></script>
+<script src="data/microsoft-office-visio-2016-rtm.js"></script>
+<script src="data/microsoft-office-project-2016-rtm.js"></script>
+
+
+  <!-- THEN APP LOGIC -->
+  <script src="app.js" defer></script>
+</body>
+</html>
