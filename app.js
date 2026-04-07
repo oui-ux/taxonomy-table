@@ -21,12 +21,36 @@ const s_subclose = document.getElementById("s_subclose");
 const pathText = document.getElementById("pathText");
 const copyPathBtn = document.getElementById("copyPathBtn");
 const copyCodesBtn = document.getElementById("copyCodesBtn");
+const themeToggle = document.getElementById("themeToggle");
+const themeIcon = document.querySelector(".theme-icon");
+const themeText = document.querySelector(".theme-text");
 
 let activeCI = "";
 let activeRows = [];
 let filteredRows = [];
 
+// Theme management
+const getStoredTheme = () => localStorage.getItem('theme') || 'dark';
+const setStoredTheme = (theme) => localStorage.setItem('theme', theme);
+const setTheme = (theme) => {
+  document.documentElement.setAttribute('data-theme', theme);
+  themeIcon.textContent = theme === 'light' ? '☀️' : '🌙';
+  themeText.textContent = theme === 'light' ? '' : '';
+  setStoredTheme(theme);
+};
+
 document.addEventListener("DOMContentLoaded", () => {
+  // Initialize theme
+  const currentTheme = getStoredTheme();
+  setTheme(currentTheme);
+
+  // Theme toggle event listener
+  themeToggle.addEventListener('click', () => {
+    const currentTheme = document.documentElement.getAttribute('data-theme') || 'dark';
+    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+    setTheme(newTheme);
+  });
+
   populateDropdown();
 
   ciSelect.addEventListener("change", onCIChange);

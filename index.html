@@ -12,10 +12,17 @@
 <body>
   <div class="app">
 
+    <!-- THEME TOGGLE -->
+    <div class="theme-toggle">
+      <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+        <span class="theme-icon">🌙</span>
+        <span class="theme-text"></span>
+      </button>
+    </div>
+
     <!-- HEADER -->
     <header class="header">
       <h1>Taxonomy Table</h1>
-      <p class="sub">Select a CI, search, and click a row to populate taxonomy.</p>
     </header>
 
     <!-- CONTROLS -->
@@ -54,10 +61,9 @@
       </div>
 
       <div class="path-wrap">
-        <div class="path-label">Path</div>
+        <div class="path-label">Full Taxonomy Path</div>
         <div id="pathText" class="path">—</div>
-
-      
+        
       </div>
     </section>
 
@@ -65,7 +71,7 @@
     <section class="card table-card">
       <div class="table-head">
         <h2 id="tableTitle">No CI selected</h2>
-        <span id="tableMeta" class="hint">—</span>
+        <span id="tableMeta" class="table-meta">—</span>
       </div>
 
       <div class="table-wrap">
@@ -87,6 +93,10 @@
     </section>
 
   </div>
+
+  <footer class="footer">
+   
+  </footer>
 
 <!-- INIT FIRST -->
 <script src="data/_init.js"></script>
@@ -115,6 +125,7 @@
 <script src="data/outlook-for-windows-classic.js"></script>
 <script src="data/microsoft-office-visio-2016-rtm.js"></script>
 <script src="data/microsoft-office-project-2016-rtm.js"></script>
+<script src="data/microsoft-office-project-2016-.js"></script>
 
 
   <!-- THEN APP LOGIC -->
