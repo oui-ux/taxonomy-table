@@ -75,7 +75,7 @@ window.TAXONOMY_DATA["Azure VPN"] = [
     ci: "Azure VPN",
     category: "Application & Services",
     subCategory: "Login/Access",
-    roleComponent: "Administrator Alert",
+    roleComponent: "The Remote Access Service IP Configuration is UnusableAdministrator Alert",
     closeCode: "Resolved Technical Issue",
     subCloseCode: "Changed the TCP/IP6 Parameters"
   },
