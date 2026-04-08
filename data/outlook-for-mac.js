@@ -222,5 +222,4 @@ window.TAXONOMY_DATA["Outlook for Mac"] = [
     subCloseCode: "Created New Outlook Profile",
     kb: ""
   }
-
 ];

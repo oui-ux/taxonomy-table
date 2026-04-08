@@ -23,15 +23,15 @@ window.TAXONOMY_DATA["Physical SmartCard"] = [
   // Client Device | Login Access | Reader
   // ==================================================
   { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Reader", closeCode:"Resolved Technical issue", subCloseCode:"Installed smartcard drivers and unblocked smartcard", kb:"" },
-  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"", closeCode:"Resolved Technical issue", subCloseCode:"Redirected to https://myorder.microsoft.com/ to order smartcard reader", kb:"" },
-  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"", closeCode:"Resolved Technical issue", subCloseCode:"Redirected to send an email to gsam@microsoft.com", kb:"" },
+  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Reader", closeCode:"Resolved Technical issue", subCloseCode:"Redirected to https://myorder.microsoft.com/ to order smartcard reader", kb:"" },
+  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Reader", closeCode:"Resolved Technical issue", subCloseCode:"Redirected to send an email to gsam@microsoft.com", kb:"" },
 
   // ==================================================
   // Client Device | Login Access | Smart card on Mac
   // ==================================================
-  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"", closeCode:"Resolved Technical issue", subCloseCode:"Performed Offline Unblock successfully", kb:"" },
-  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"", closeCode:"Resolved Technical issue", subCloseCode:"Changed Smart card pin", kb:"" },
-  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"", closeCode:"Resolved Technical issue", subCloseCode:"Renewed Smart card on Mac using AVD", kb:"" },
-  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"", closeCode:"Resolved Technical issue", subCloseCode:"Unblocked Smart card on Mac", kb:"" },
-  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"", closeCode:"Resolved Technical issue", subCloseCode:"Smart Card login on Mac", kb:"" }
+  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Reader", closeCode:"Resolved Technical issue", subCloseCode:"Performed Offline Unblock successfully", kb:"" },
+  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Reader", closeCode:"Resolved Technical issue", subCloseCode:"Changed Smart card pin", kb:"" },
+  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Reader", closeCode:"Resolved Technical issue", subCloseCode:"Renewed Smart card on Mac using AVD", kb:"" },
+  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Reader", closeCode:"Resolved Technical issue", subCloseCode:"Unblocked Smart card on Mac", kb:"" },
+  { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Reader", closeCode:"Resolved Technical issue", subCloseCode:"Smart Card login on Mac", kb:"" }
 ];

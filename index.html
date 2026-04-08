@@ -40,6 +40,7 @@
       </div>
 
       <div class="actions">
+        <button id="filterBtn" class="btn btn-primary" disabled>Filter</button>
         <button id="clearBtn" class="btn" disabled>Clear</button>
       </div>
     </section>
@@ -47,15 +48,33 @@
     <!-- SELECTED TAXONOMY -->
     <section class="card selected">
       <div class="selected-head">
-        <h2>Selected Taxonomy</h2>
-        <span class="hint">Click a row in the table to populate this.</span>
+        <div>
+          <h2>Selected Taxonomy</h2>
+          <span class="hint">Click a row in the table to populate this.</span>
+        </div>
+       
       </div>
 
       <div class="selected-grid">
         <div class="pill"><span class="k">CI</span><span id="s_ci" class="v">—</span></div>
-        <div class="pill"><span class="k">Category</span><span id="s_cat" class="v">—</span></div>
-        <div class="pill"><span class="k">Sub Category</span><span id="s_sub" class="v">—</span></div>
-        <div class="pill"><span class="k">Role Component</span><span id="s_role" class="v">—</span></div>
+        <div class="pill dropdown-pill">
+          <span class="k">Category</span>
+          <select id="s_cat" class="dropdown-select">
+            <option value="">—</option>
+          </select>
+        </div>
+        <div class="pill dropdown-pill">
+          <span class="k">Sub Category</span>
+          <select id="s_sub" class="dropdown-select">
+            <option value="">—</option>
+          </select>
+        </div>
+        <div class="pill dropdown-pill">
+          <span class="k">Role Component</span>
+          <select id="s_role" class="dropdown-select">
+            <option value="">—</option>
+          </select>
+        </div>
         <div class="pill"><span class="k">Close Code</span><span id="s_close" class="v">—</span></div>
         <div class="pill"><span class="k">Sub CloseCode</span><span id="s_subclose" class="v">—</span></div>
       </div>

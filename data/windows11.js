@@ -8,7 +8,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Reimage request",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Reimaged and Joined to Entra ID",
@@ -18,7 +18,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "HAADJ to Microsoft Entra ID Migration",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Device Migrated from HAADJ to Entra ID",
@@ -28,7 +28,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Device compliance",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Fixed issues with Device Compliance",
@@ -39,7 +39,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Device compliance",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Device synced",
@@ -50,7 +50,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Windows Profile",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Updated Group Policies",
@@ -59,7 +59,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Windows Profile",
     closeCode: "Resolved Technical issue",
     subCloseCode: "User account synchronized",
@@ -68,7 +68,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Windows Profile",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Activated Windows",
@@ -79,7 +79,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Updated/Modified Network settings",
@@ -88,7 +88,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Turned on remote Machine",
@@ -97,7 +97,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Disabled/Enabled NLA settings",
@@ -106,7 +106,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Modified network profile type",
@@ -115,7 +115,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Rebooted Destination Machine",
@@ -124,7 +124,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Registered MAC address to Corp net",
@@ -133,7 +133,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Corrected FQDN",
@@ -144,7 +144,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
   {
     ci: "Windows 11",
     category: "Application & Services",
-    subCategory: "Login/Access",
+    subCategory: "Login/access",
     roleComponent: "Windows Defender",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Updated Signature",
