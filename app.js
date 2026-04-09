@@ -26,6 +26,8 @@ const copyCodesBtn = document.getElementById("copyCodesBtn");
 const themeToggle = document.getElementById("themeToggle");
 const themeIcon = document.querySelector(".theme-icon");
 const themeText = document.querySelector(".theme-text");
+const topRightMoon = document.querySelector(".top-right-image__moon");
+const topRightSun = document.querySelector(".top-right-image__sun");
 
 let activeCI = "";
 let activeRows = [];
@@ -38,6 +40,15 @@ const setTheme = (theme) => {
   document.documentElement.setAttribute('data-theme', theme);
   themeIcon.textContent = theme === 'light' ? '☀️' : '🌙';
   themeText.textContent = theme === 'light' ? '' : '';
+  if (topRightMoon && topRightSun) {
+    if (theme === 'light') {
+      topRightMoon.style.opacity = '0';
+      topRightSun.style.opacity = '1';
+    } else {
+      topRightMoon.style.opacity = '1';
+      topRightSun.style.opacity = '0';
+    }
+  }
   setStoredTheme(theme);
 };
 
@@ -164,7 +175,7 @@ function selectRow(i) {
   s_subclose.textContent = r.subCloseCode;
 
   pathText.textContent =
-    `${r.ci} > ${r.category} > ${r.subCategory} > ${r.roleComponent} > ${r.closeCode} > ${r.subCloseCode}`;
+    `${r.ci} >\n${r.category} >\n${r.subCategory} >\n${r.roleComponent} >\n${r.closeCode} >\n${r.subCloseCode}`;
 
   copyPathBtn.disabled = false;
   copyCodesBtn.disabled = false;
