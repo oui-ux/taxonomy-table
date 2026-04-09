@@ -20,6 +20,18 @@
       </button>
     </div>
 
+    <!-- TOP RIGHT IMAGE -->
+    <div class="top-right-image">
+      <img class="top-right-image__moon" src="moon.gif" alt="Moon icon" />
+      <img class="top-right-image__sun" src="sun.webp" alt="Sun icon" />
+    </div>
+
+    <!-- LEFT PATH PANEL -->
+    <aside class="taxonomy-path-panel">
+      <div class="panel-title">Full Taxonomy Path</div>
+      <div id="pathText" class="path">—</div>
+    </aside>
+
     <!-- HEADER -->
     <header class="header">
       <h1>Taxonomy Table</h1>
@@ -51,37 +63,34 @@
         <div>
           <h2>Selected Taxonomy</h2>
         </div>
-       
       </div>
 
-      <div class="selected-grid">
-        <div class="pill"><span class="k">CI</span><span id="s_ci" class="v">—</span></div>
-        <div class="pill dropdown-pill">
-          <span class="k">Category</span>
-          <select id="s_cat" class="dropdown-select">
-            <option value="">—</option>
-          </select>
+      <div class="selected-body">
+        <div class="selected-main">
+          <div class="selected-grid">
+            <div class="pill"><span class="k">CI</span><span id="s_ci" class="v">—</span></div>
+            <div class="pill dropdown-pill">
+              <span class="k">Category</span>
+              <select id="s_cat" class="dropdown-select">
+                <option value="">—</option>
+              </select>
+            </div>
+            <div class="pill dropdown-pill">
+              <span class="k">Sub Category</span>
+              <select id="s_sub" class="dropdown-select">
+                <option value="">—</option>
+              </select>
+            </div>
+            <div class="pill dropdown-pill">
+              <span class="k">Role Component</span>
+              <select id="s_role" class="dropdown-select">
+                <option value="">—</option>
+              </select>
+            </div>
+            <div class="pill"><span class="k">Close Code</span><span id="s_close" class="v">—</span></div>
+            <div class="pill"><span class="k">Sub CloseCode</span><span id="s_subclose" class="v">—</span></div>
+          </div>
         </div>
-        <div class="pill dropdown-pill">
-          <span class="k">Sub Category</span>
-          <select id="s_sub" class="dropdown-select">
-            <option value="">—</option>
-          </select>
-        </div>
-        <div class="pill dropdown-pill">
-          <span class="k">Role Component</span>
-          <select id="s_role" class="dropdown-select">
-            <option value="">—</option>
-          </select>
-        </div>
-        <div class="pill"><span class="k">Close Code</span><span id="s_close" class="v">—</span></div>
-        <div class="pill"><span class="k">Sub CloseCode</span><span id="s_subclose" class="v">—</span></div>
-      </div>
-
-      <div class="path-wrap">
-        <div class="path-label">Full Taxonomy Path</div>
-        <div id="pathText" class="path">—</div>
-        
       </div>
     </section>
 
