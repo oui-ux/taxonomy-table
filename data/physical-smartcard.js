@@ -13,7 +13,6 @@ window.TAXONOMY_DATA["Physical SmartCard"] = [
   // ==================================================
   { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"New Smart card", closeCode:"Resolved Technical issue", subCloseCode:"Re-directed the user to visit https://aka.ms/CloudMFA", kb:"" },
   { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Manager App", closeCode:"Resolved Technical issue", subCloseCode:"Renewed SmartCard certificates successfully", kb:"" },
-
   { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Reader", closeCode:"Resolved Technical issue", subCloseCode:"Installed smartcard drivers and unblocked smartcard", kb:"" },
 
   { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Smart card on MAC", closeCode:"Resolved Technical issue", subCloseCode:"Re-installed Microsoft Smart Card Manager Application", kb:"" },
@@ -32,4 +31,4 @@ window.TAXONOMY_DATA["Physical SmartCard"] = [
   { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Smart card on Mac", closeCode:"Resolved Technical issue", subCloseCode:"Renewed Smart card on Mac using AVD", kb:"" },
   { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Smart card on Mac", closeCode:"Resolved Technical issue", subCloseCode:"Unblocked Smart card on Mac", kb:"" },
   { ci:"Physical SmartCard", category:"Client Device", subCategory:"Login Access", roleComponent:"Smart card on Mac", closeCode:"Resolved Technical issue", subCloseCode:"Smart Card login on Mac", kb:"" }
-];
+];  

@@ -1,19 +1,19 @@
 // ==================================================
-// Microsoft Office Access 2016 (RTM)
+// Microsoft Office Word 2016 (RTM)
 // Category: Application & Service
 // Sub Category: Login/Access
 // ==================================================
 
 window.TAXONOMY_DATA ||= {};
-window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"] ||= [];
+window.TAXONOMY_DATA["Microsoft Office Word 2016 (RTM)"] ||= [];
 
-window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
+window.TAXONOMY_DATA["Microsoft Office Word 2016 (RTM)"].push(
 
   // ======================
   // Login/Access | Activation
   // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Activation",
@@ -22,7 +22,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Activation",
@@ -31,7 +31,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Activation",
@@ -40,7 +40,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Activation",
@@ -49,7 +49,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Activation",
@@ -62,7 +62,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
   // Login/Access | Copilot
   // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Copilot",
@@ -71,7 +71,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Copilot",
@@ -80,7 +80,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Copilot",
@@ -89,7 +89,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Copilot",
@@ -98,7 +98,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Copilot",
@@ -107,7 +107,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Copilot",
@@ -116,7 +116,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Copilot",
@@ -125,7 +125,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Copilot",
@@ -138,7 +138,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
   // Login/Access | Sign In Error
   // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Sign In Error",
@@ -147,7 +147,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Sign In Error",
@@ -156,7 +156,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Sign In Error",
@@ -165,7 +165,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Sign In Error",
@@ -174,7 +174,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Sign In Error",
@@ -187,7 +187,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
   // Login/Access | File Permission
   // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "File Permission",
@@ -196,7 +196,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "File Permission",
@@ -205,7 +205,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "File Permission",
@@ -214,7 +214,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "File Permission",
@@ -223,7 +223,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "File Permission",
@@ -236,7 +236,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
   // Login/Access | Add Ins
   // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Add Ins",
@@ -245,7 +245,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Add Ins",
@@ -254,7 +254,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Add Ins",
@@ -263,7 +263,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Add Ins",
@@ -272,7 +272,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Login/Access",
     roleComponent: "Add Ins",
@@ -280,10 +280,10 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     subCloseCode: "Latest Office Update",
     kb: ""
   },
-  
-
+// Crash/Hang Freeze | Launch
+  // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Crash/Hang Freeze",
     roleComponent: "Launch",
@@ -292,7 +292,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Crash/Hang Freeze",
     roleComponent: "Launch",
@@ -301,7 +301,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Crash/Hang Freeze",
     roleComponent: "Launch",
@@ -310,7 +310,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Crash/Hang Freeze",
     roleComponent: "Launch",
@@ -319,7 +319,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Crash/Hang Freeze",
     roleComponent: "Launch",
@@ -328,7 +328,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Crash/Hang Freeze",
     roleComponent: "Launch",
@@ -337,7 +337,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Crash/Hang Freeze",
     roleComponent: "Launch",
@@ -350,7 +350,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
   // Data Missing/Incomplete/Inaccurate | Copilot
   // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Data Missing/Incomplete/Inaccurate",
     roleComponent: "Copilot",
@@ -359,7 +359,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Data Missing/Incomplete/Inaccurate",
     roleComponent: "Copilot",
@@ -368,7 +368,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Data Missing/Incomplete/Inaccurate",
     roleComponent: "Copilot",
@@ -377,7 +377,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Data Missing/Incomplete/Inaccurate",
     roleComponent: "Copilot",
@@ -386,7 +386,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Data Missing/Incomplete/Inaccurate",
     roleComponent: "Copilot",
@@ -395,7 +395,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Data Missing/Incomplete/Inaccurate",
     roleComponent: "Copilot",
@@ -404,7 +404,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Data Missing/Incomplete/Inaccurate",
     roleComponent: "Copilot",
@@ -413,7 +413,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Data Missing/Incomplete/Inaccurate",
     roleComponent: "Copilot",
@@ -426,7 +426,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
   // Data Missing/Incomplete/Inaccurate | Corrupt File
   // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Data Missing/Incomplete/Inaccurate",
     roleComponent: "Corrupt File",
@@ -435,7 +435,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Data Missing/Incomplete/Inaccurate",
     roleComponent: "Corrupt File",
@@ -444,7 +444,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Data Missing/Incomplete/Inaccurate",
     roleComponent: "Corrupt File",
@@ -453,7 +453,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Data Missing/Incomplete/Inaccurate",
     roleComponent: "Corrupt File",
@@ -462,7 +462,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Data Missing/Incomplete/Inaccurate",
     roleComponent: "Corrupt File",
@@ -472,7 +472,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
   },
   
  {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Connectivity",
     roleComponent: "Copilot",
@@ -481,7 +481,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Connectivity",
     roleComponent: "Copilot",
@@ -490,7 +490,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Connectivity",
     roleComponent: "Copilot",
@@ -499,7 +499,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Connectivity",
     roleComponent: "Copilot",
@@ -508,7 +508,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Connectivity",
     roleComponent: "Copilot",
@@ -517,7 +517,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Connectivity",
     roleComponent: "Copilot",
@@ -526,7 +526,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Connectivity",
     roleComponent: "Copilot",
@@ -535,7 +535,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Connectivity",
     roleComponent: "Copilot",
@@ -548,7 +548,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
   // Performance | Add Ins
   // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Performance",
     roleComponent: "Add Ins",
@@ -557,7 +557,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Performance",
     roleComponent: "Add Ins",
@@ -566,7 +566,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Performance",
     roleComponent: "Add Ins",
@@ -575,7 +575,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Performance",
     roleComponent: "Add Ins",
@@ -584,7 +584,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Performance",
     roleComponent: "Add Ins",
@@ -597,7 +597,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
   // Performance | Copilot
   // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Performance",
     roleComponent: "Copilot",
@@ -606,7 +606,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Performance",
     roleComponent: "Copilot",
@@ -615,7 +615,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Performance",
     roleComponent: "Copilot",
@@ -624,7 +624,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Performance",
     roleComponent: "Copilot",
@@ -633,7 +633,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Performance",
     roleComponent: "Copilot",
@@ -642,7 +642,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Performance",
     roleComponent: "Copilot",
@@ -651,7 +651,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Performance",
     roleComponent: "Copilot",
@@ -660,7 +660,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Performance",
     roleComponent: "Copilot",
@@ -671,7 +671,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
   
 
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Upload",
@@ -680,7 +680,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Upload",
@@ -689,7 +689,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Upload",
@@ -698,7 +698,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Upload",
@@ -707,7 +707,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Upload",
@@ -716,7 +716,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Upload",
@@ -729,7 +729,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
   // Functionality | Copilot
   // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Copilot",
@@ -738,7 +738,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Copilot",
@@ -747,7 +747,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Copilot",
@@ -756,7 +756,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Copilot",
@@ -765,7 +765,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Copilot",
@@ -774,7 +774,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Copilot",
@@ -783,7 +783,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Copilot",
@@ -792,7 +792,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Copilot",
@@ -805,7 +805,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
   // Functionality | AutoSave
   // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "AutoSave",
@@ -814,7 +814,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "AutoSave",
@@ -823,7 +823,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "AutoSave",
@@ -832,7 +832,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "AutoSave",
@@ -841,7 +841,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "AutoSave",
@@ -850,7 +850,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "AutoSave",
@@ -863,7 +863,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
   // Functionality | Sensitivity Label
   // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Sensitivity Label",
@@ -872,7 +872,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Sensitivity Label",
@@ -881,7 +881,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Sensitivity Label",
@@ -890,7 +890,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Sensitivity Label",
@@ -899,7 +899,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Sensitivity Label",
@@ -908,7 +908,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Sensitivity Label",
@@ -917,7 +917,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Sensitivity Label",
@@ -926,11 +926,57 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
 
+  {
+    ci: "Microsoft Office Word 2016 (RTM)",
+    category: "Application & Service",
+    subCategory: "Functionality",
+    roleComponent: "PDF on Word",
+    closeCode: "Resolved Technical Issue",
+    subCloseCode: "re-signed in to Office Apps",
+    kb: ""
+  },
+  {
+    ci: "Microsoft Office Word 2016 (RTM)",
+    category: "Application & Service",
+    subCategory: "Functionality",
+    roleComponent: "PDF on Word",
+    closeCode: "Resolved Technical Issue",
+    subCloseCode: "Cleared Office Cache",
+    kb: ""
+  },
+  {
+    ci: "Microsoft Office Word 2016 (RTM)",
+    category: "Application & Service",
+    subCategory: "Functionality",
+    roleComponent: "PDF on Word",
+    closeCode: "Resolved Technical Issue",
+    subCloseCode: "Latest Office Update",
+    kb: ""
+  },
+  {
+    ci: "Microsoft Office Word 2016 (RTM)",
+    category: "Application & Service",
+    subCategory: "Functionality",
+    roleComponent: "PDF on Word",
+    closeCode: "Resolved Technical Issue",
+    subCloseCode: "Removed Cache credentials",
+    kb: ""
+  },
+  {
+    ci: "Microsoft Office Word 2016 (RTM)",
+    category: "Application & Service",
+    subCategory: "Functionality",
+    roleComponent: "PDF on Word",
+    closeCode: "Resolved Technical Issue",
+    subCloseCode: "Uninstall/reinstall Office Apps",
+    kb: ""
+  },
+
   // ======================
   // Functionality | Comments
   // ======================
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Comments",
@@ -939,7 +985,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Comments",
@@ -948,7 +994,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Comments",
@@ -957,7 +1003,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Comments",
@@ -966,7 +1012,7 @@ window.TAXONOMY_DATA["Microsoft Office Access 2016 (RTM)"].push(
     kb: ""
   },
   {
-    ci: "Microsoft Office Access 2016 (RTM)",
+    ci: "Microsoft Office Word 2016 (RTM)",
     category: "Application & Service",
     subCategory: "Functionality",
     roleComponent: "Comments",
