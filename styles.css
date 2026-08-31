@@ -300,10 +300,20 @@ body{
 /* ========== CONTROLS ========== */
 .controls{
   display: grid;
-  grid-template-columns: 2fr 2fr auto;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
   gap: 20px;
   align-items: end;
   margin-bottom: 16px;
+}
+
+.controls .actions{
+  grid-column: -2 / -1;
+}
+
+@media (max-width: 900px){
+  .controls .actions{
+    grid-column: auto;
+  }
 }
 
 @media (max-width: 768px){
@@ -965,6 +975,138 @@ tbody tr.selected-row td{
   }
 }
 
+/* ========== SELECTED TAXONOMY POPUP ========== */
+.modal-overlay{
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: rgba(4, 6, 16, 0.6);
+  backdrop-filter: blur(6px);
+  opacity: 0;
+  transition: opacity .2s ease;
+}
+
+[data-theme="light"] .modal-overlay{
+  background: rgba(15, 23, 42, 0.35);
+}
+
+.modal-overlay.open{
+  opacity: 1;
+}
+
+.modal-overlay[hidden]{
+  display: none;
+}
+
+.modal{
+  position: relative;
+  width: 100%;
+  max-width: 460px;
+  max-height: 85vh;
+  overflow-y: auto;
+  padding: 32px;
+  border-radius: var(--radius-lg);
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: var(--blur);
+  transform: translateY(16px) scale(0.97);
+  transition: transform .2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-overlay.open .modal{
+  transform: translateY(0) scale(1);
+}
+
+.modal-close{
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1px solid var(--border);
+  background: var(--bg-input);
+  color: var(--text-main);
+  font-size: 20px;
+  line-height: 1;
+  cursor: pointer;
+  transition: var(--transition-fast);
+}
+
+.modal-close:hover{
+  background: var(--bg-hover);
+  border-color: var(--accent-soft);
+  transform: rotate(90deg);
+}
+
+.modal-header{
+  margin-bottom: 20px;
+  padding-right: 32px;
+}
+
+.modal-eyebrow{
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: var(--text-accent);
+  margin-bottom: 6px;
+}
+
+.modal-header h2{
+  font-size: 22px;
+  font-weight: 700;
+  color: var(--text-main);
+  word-break: break-word;
+}
+
+.modal-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.modal-grid .pill{
+  padding: 12px 14px;
+}
+
+.modal-grid .pill .k{
+  font-size: 11px;
+}
+
+.modal-grid .pill .v{
+  font-size: 14px;
+}
+
+@media (max-width: 480px){
+  .modal-grid{
+    grid-template-columns: 1fr;
+  }
+
+  .modal{
+    padding: 24px;
+  }
+}
+
+.modal-actions{
+  display: flex;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.modal-actions .btn{
+  flex: 1;
+}
+
 /* ========== UTILITIES ========== */
 .sr-only{
   position: absolute;
@@ -1008,6 +1150,141 @@ tbody tr.selected-row td{
 0 0 140px rgba(255,120,0,0.6)
 
   }
+}\n/* Search tools directly below the Taxonomy Table heading */
+.taxonomy-search-row {
+  width: min(720px, 100%);
+  margin: 22px 0 0 auto;
+  display: grid;
+  grid-template-columns: minmax(250px, 1fr) minmax(250px, 1fr);
+  gap: 16px;
+  text-align: left;
+  position: relative;
+  z-index: 1100;
+}
+.compact-search-field { position: relative; }
+.compact-search-field label { color: var(--text-main); }
+.ci-search-results {
+  position: absolute;
+  top: calc(100% + 8px);
+  left: 0;
+  right: 0;
+  max-height: 290px;
+  overflow-y: auto;
+  padding: 8px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  background: var(--bg-card);
+  box-shadow: var(--shadow-lg);
+  backdrop-filter: var(--blur);
+  z-index: 1500;
+}
+.ci-search-results[hidden] { display: none; }
+.ci-search-option {
+  width: 100%;
+  padding: 11px 12px;
+  border: 0;
+  border-radius: var(--radius-sm);
+  background: transparent;
+  color: var(--text-main);
+  font: inherit;
+  text-align: left;
+  cursor: pointer;
+}
+.ci-search-option:hover,
+.ci-search-option:focus { background: var(--bg-hover); color: var(--text-accent); outline: none; }
+.ci-search-empty { padding: 12px; color: var(--text-muted); }
+@media (max-width: 768px) {
+  .taxonomy-search-row { grid-template-columns: 1fr; margin-left: 0; }
+}
+
+/* Compact search layout inside the CI controls card */
+.controls {
+  padding-top: 72px;
+}
+.compact-column-search {
+  position: absolute;
+  top: 16px;
+  right: 18px;
+  width: 230px;
+  z-index: 20;
+}
+.compact-column-search input {
+  width: 100%;
+  padding: 9px 12px;
+  font-size: 13px;
+  border-radius: var(--radius-sm);
+}
+.ci-combobox-field { position: relative; }
+.ci-combobox { position: relative; }
+.ci-combobox input {
+  width: 100%;
+  padding-right: 46px;
+}
+.ci-dropdown-button {
+  position: absolute;
+  top: 7px;
+  right: 7px;
+  width: 36px;
+  height: 36px;
+  padding: 0;
+  border: 0;
+  border-left: 1px solid var(--border);
+  border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
+  background: transparent;
+  color: var(--text-muted);
+  font-size: 22px;
+  cursor: pointer;
+  z-index: 2;
+}
+.ci-dropdown-button:hover { color: var(--text-accent); background: var(--bg-hover); }
+.ci-hidden-select { display: none; }
+.ci-combobox .ci-search-results {
+  top: calc(100% + 6px);
+  z-index: 1600;
+}
+@media (max-width: 768px) {
+  .controls { padding-top: 78px; }
+  .compact-column-search { left: 18px; right: 18px; width: auto; }
 }
 
 
+/* Fix: keep the searchable CI dropdown above the table and neighboring cards */
+.card.controls {
+  overflow: visible !important;
+  position: relative;
+  z-index: 1000;
+  isolation: auto;
+}
+.card.controls:hover {
+  z-index: 1000;
+}
+.ci-combobox-field,
+.ci-combobox {
+  position: relative;
+  z-index: 1200;
+  overflow: visible !important;
+}
+.ci-combobox .ci-search-results {
+  position: absolute !important;
+  z-index: 10000 !important;
+  top: calc(100% + 6px) !important;
+  left: 0 !important;
+  right: 0 !important;
+  min-width: 100%;
+  max-height: 320px;
+  overflow-y: auto !important;
+}
+.table-card {
+  position: relative;
+  z-index: 1;
+}
+.table-wrap {
+  position: relative;
+  z-index: 1;
+}
+
+/* Explicit moon/sun image visibility */
+.top-right-image__moon { opacity: 1; }
+.top-right-image__sun { opacity: 0; }
+[data-theme="light"] .top-right-image__moon { opacity: 0; }
+[data-theme="light"] .top-right-image__sun { opacity: 1; }

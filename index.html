@@ -39,58 +39,45 @@
 
     <!-- CONTROLS -->
     <section class="card controls">
-      <div class="field">
-        <label for="ciSelect">CI</label>
-        <select id="ciSelect">
+      <div class="compact-column-search">
+        <input id="searchInput" type="search" placeholder="Search any column..." disabled aria-label="Search any taxonomy column" />
+      </div>
+      <div class="field ci-combobox-field">
+        <label for="ciSearchInput">CI</label>
+        <div id="ciCombobox" class="ci-combobox">
+          <input id="ciSearchInput" type="search" placeholder="Select or search CI..." autocomplete="off" aria-expanded="false" aria-controls="ciSearchResults" />
+          <button id="ciDropdownButton" class="ci-dropdown-button" type="button" aria-label="Open CI list">⌄</button>
+          <div id="ciSearchResults" class="ci-search-results" hidden></div>
+        </div>
+        <select id="ciSelect" class="ci-hidden-select" tabindex="-1" aria-hidden="true">
           <option value="" disabled selected>— Select CI —</option>
         </select>
       </div>
 
       <div class="field">
-        <label for="searchInput">Search (any column)</label>
-        <input id="searchInput" type="search" placeholder="e.g., drivers, BIOS, reimage…" disabled />
+        <label for="s_cat">Category</label>
+        <select id="s_cat" class="dropdown-select-outline">
+          <option value="">Any category</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="s_sub">Sub Category</label>
+        <select id="s_sub" class="dropdown-select-outline">
+          <option value="">Any sub category</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="s_role">Role Component</label>
+        <select id="s_role" class="dropdown-select-outline">
+          <option value="">Any role component</option>
+        </select>
       </div>
 
       <div class="actions">
         <button id="filterBtn" class="btn btn-primary" disabled>Filter</button>
         <button id="clearBtn" class="btn" disabled>Clear</button>
-      </div>
-    </section>
-
-    <!-- SELECTED TAXONOMY -->
-    <section class="card selected">
-      <div class="selected-head">
-        <div>
-          <h2>Selected Taxonomy</h2>
-        </div>
-      </div>
-
-      <div class="selected-body">
-        <div class="selected-main">
-          <div class="selected-grid">
-            <div class="pill"><span class="k">CI</span><span id="s_ci" class="v">—</span></div>
-            <div class="pill dropdown-pill">
-              <span class="k">Category</span>
-              <select id="s_cat" class="dropdown-select">
-                <option value="">—</option>
-              </select>
-            </div>
-            <div class="pill dropdown-pill">
-              <span class="k">Sub Category</span>
-              <select id="s_sub" class="dropdown-select">
-                <option value="">—</option>
-              </select>
-            </div>
-            <div class="pill dropdown-pill">
-              <span class="k">Role Component</span>
-              <select id="s_role" class="dropdown-select">
-                <option value="">—</option>
-              </select>
-            </div>
-            <div class="pill"><span class="k">Close Code</span><span id="s_close" class="v">—</span></div>
-            <div class="pill"><span class="k">Sub CloseCode</span><span id="s_subclose" class="v">—</span></div>
-          </div>
-        </div>
       </div>
     </section>
 
@@ -121,43 +108,66 @@
 
   </div>
 
+  <!-- SELECTED TAXONOMY POPUP -->
+  <div id="taxModalOverlay" class="modal-overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button id="modalCloseBtn" class="modal-close" aria-label="Close">&times;</button>
+
+      <div class="modal-header">
+        <span class="modal-eyebrow">Selected Taxonomy</span>
+        <h2 id="modalTitle">—</h2>
+      </div>
+
+      <div class="modal-grid">
+        <div class="pill"><span class="k">Category</span><span id="m_cat" class="v">—</span></div>
+        <div class="pill"><span class="k">Sub Category</span><span id="m_sub" class="v">—</span></div>
+        <div class="pill"><span class="k">Role Component</span><span id="m_role" class="v">—</span></div>
+        <div class="pill"><span class="k">Close Code</span><span id="m_close" class="v">—</span></div>
+        <div class="pill"><span class="k">Sub CloseCode</span><span id="m_subclose" class="v">—</span></div>
+        <div class="pill"><span class="k">KB</span><span id="m_kb" class="v">—</span></div>
+      </div>
+
+      <div class="path-wrap">
+        <span class="path-label">Full Path</span>
+        <div id="modalPathText" class="path">—</div>
+      </div>
+    </div>
+  </div>
+
   <footer class="footer">
    
   </footer>
 
 <!-- INIT FIRST -->
 <script src="data/_init.js"></script>
-
-  <script src="data/windows11.js"></script>
+<script src="data/windows10.js"></script>
+<script src="data/windows11.js"></script>
+<script src="data/windows-hello.js"></script>
 <script src="data/cloud-mfa.js"></script>
 <script src="data/azure-vpn.js"></script>
 <script src="data/ios-new.js"></script>
-<script src="data/android.js"></script>
-<script src="data/identity-pass.js"></script>
-<script src="data/power-bi.js"></script>
-<script src="data/mac-os.js"></script>
-<!--<script src="data/teams-client-pc.js"></script> (needs to be fixed still )-->
-<script src="data/windows10.js"></script>
-<script src="data/physical-smartcard.js"></script>
-<script src="data/physical-smartcard.js"></script>
-<script src="data/physical-smartcard.js"></script>
-<script src="data/microsoft-dev-box.js"></script>
-<script src="data/authenticator-app-android.js"></script>
-<script src="data/outlook-for-android.js"></script>
-<script src="data/globalprotect-desktop.js"></script>
-<script src="data/outlook-for-mac.js"></script>
 <script src="data/authenticator-app-ios.js"></script>
 <script src="data/outlook-for-ios.js"></script>
-<script src="data/windows-hello.js"></script>
-<script src="data/outlook-for-windows-classic.js"></script>
+<script src="data/identity-pass.js"></script>
+<script src="data/android.js"></script>
+<script src="data/authenticator-app-android.js"></script>
+<script src="data/outlook-for-android.js"></script>
+<script src="data/outlook-for-windows(classic).js"></script>
+<script src="data/power-bi.js"></script>
+<script src="data/mac-os.js"></script>  
+<script src="data/physical-smartcard.js"></script>
+<script src="data/microsoft-dev-box.js"></script>
+<script src="data/globalprotect-desktop.js"></script>
+<script src="data/outlook-for-mac.js"></script>
 <script src="data/microsoft-office-visio-2016-rtm.js"></script>
 <script src="data/microsoft-office-project-2016-rtm.js"></script>
-<script src="data/microsoft-office-project-2016-.js"></script>
 <script src="data/microsoft-office-access-2016-rtm.js"></script>
 <script src="data/Microsoft-Office-Word-2016-RTM.js"></script>
+<script src="data/sharepoint-online-o365.js"></script>
+<script src="data/onedrive-for-business.js"></script>
 
 
-  <!-- THEN APP LOGIC -->
+                  
   <script src="app.js" defer></script>
 </body>
 </html>
