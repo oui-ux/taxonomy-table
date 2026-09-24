@@ -11,7 +11,7 @@ window.TAXONOMY_DATA["iOS New"] = [
     roleComponent: "New Device enrollment",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Device enrolled to Microsoft",
-    kb: "KB0054377"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0054377">KB0054377</a>'
   },
   {
     ci: "iOS New",
@@ -20,7 +20,7 @@ window.TAXONOMY_DATA["iOS New"] = [
     roleComponent: "Install and activate MS defender",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Activated MS defender & Synced device",
-    kb: "KB0062449"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0062449">KB0062449</a>'
   },
   {
     ci: "iOS New",
@@ -29,7 +29,7 @@ window.TAXONOMY_DATA["iOS New"] = [
     roleComponent: "Compliance issue",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Updated iOS to latest available version",
-    kb: "KB0054377"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0054377">KB0054377</a>'
   },
   {
     ci: "iOS New",
@@ -38,7 +38,7 @@ window.TAXONOMY_DATA["iOS New"] = [
     roleComponent: "Application Crash",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Reported bug and installed Beta version App",
-    kb: "KB0059494"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0059494">KB0059494</a>'
   },
   {
     ci: "iOS New",
@@ -47,6 +47,6 @@ window.TAXONOMY_DATA["iOS New"] = [
     roleComponent: "MAID",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Information Provided on MAID",
-    kb: "KB0074979"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0074979">KB0074979</a>'
   }
 ];

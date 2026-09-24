@@ -14,7 +14,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "New Device enrollment",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Device enrolled to Microsoft",
-    kb: "KB0063892"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0063892">KB0063892</a>'
   },
   {
     ci: "MAC OS",
@@ -23,7 +23,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Microsoft defender for Endpoint",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Activated MS defender & Synced device",
-    kb: "KB0061791"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0061791">KB0061791</a>'
   },
   {
     ci: "MAC OS",
@@ -32,7 +32,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Compliance issue",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Updated Mac to latest available version",
-    kb: "KB0063892"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0063892">KB0063892</a>'
   },
   {
     ci: "MAC OS",
@@ -41,7 +41,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Profile installation failed",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Removed existing Intune profile and re-enrolled",
-    kb: "KB0063892"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0063892">KB0063892</a>'
   },
   {
     ci: "MAC OS",
@@ -50,7 +50,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Mac Keychain",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Keychain Prompt",
-    kb: "KB0054359"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0054359">KB0054359</a>'
   },
   {
     ci: "MAC OS",
@@ -59,7 +59,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "PSSO",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Registered PSSO",
-    kb: "KB0074093"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0074093">KB0074093</a>'
   },
   {
     ci: "MAC OS",
@@ -68,7 +68,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Apple Business Manager (ABM)",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Fixed Apple Business Manager (ABM) device sync error",
-    kb: "KB0075443"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0075443">KB0075443</a>'
   },
   {
     ci: "MAC OS",
@@ -77,7 +77,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Apple Business Manager (ABM)",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Enrolled to ABM",
-    kb: "KB0075439"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0075439">KB0075439</a>'
   },
   {
     ci: "MAC OS",
@@ -86,7 +86,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Installed RD application and subscribed",
-    kb: "KB0073440"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0073440">KB0073440</a>'
   },
 
   // ==========================================================
@@ -99,7 +99,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Updated/Modified Network settings",
-    kb: "KB0053094/KB0058120"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0053094">KB0053094</a>/<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0058120">KB0058120</a>'
   },
   {
     ci: "MAC OS",
@@ -108,7 +108,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Turned on remote Machine",
-    kb: "KB0053094/KB0058120"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0053094">KB0053094</a>/<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0058120">KB0058120</a>'
   },
   {
     ci: "MAC OS",
@@ -117,7 +117,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Disabled/Enabled NLA settings",
-    kb: "KB0053094/KB0058120"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0053094">KB0053094</a>/<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0058120">KB0058120</a>'
   },
   {
     ci: "MAC OS",
@@ -126,7 +126,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Modified network profile type",
-    kb: "KB0053094/KB0058120"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0053094">KB0053094</a>/<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0058120">KB0058120</a>'
   },
   {
     ci: "MAC OS",
@@ -135,7 +135,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Rebooted Destination Machine",
-    kb: "KB0053094/KB0058120"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0053094">KB0053094</a>/<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0058120">KB0058120</a>'
   },
   {
     ci: "MAC OS",
@@ -144,7 +144,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Registered MAC address to Corp net",
-    kb: "KB0053094/KB0058120"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0053094">KB0053094</a>/<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0058120">KB0058120</a>'
   },
   {
     ci: "MAC OS",
@@ -153,7 +153,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Remote Desktop",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Corrected FQDN",
-    kb: "KB0053094/KB0058120"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0053094">KB0053094</a>/<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0058120">KB0058120</a>'
   },
 
   // ==========================================================
@@ -166,7 +166,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "MAID",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Information Provided on MAID",
-    kb: "KB0074979"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0074979">KB0074979</a>'
   },
   {
     ci: "MAC OS",
@@ -175,7 +175,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Unlock Apple Asset",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Uninstalled DLP scripts",
-    kb: "KB0075442"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0075442">KB0075442</a>'
   },
   {
     ci: "MAC OS",
@@ -184,7 +184,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "FileVault",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Requested for information and filled form to unlock",
-    kb: "KB0075444"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0075444">KB0075444</a>'
   },
   {
     ci: "MAC OS",
@@ -193,7 +193,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "FileVault",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Helped user to recover FileVault key",
-    kb: "KB0052093"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0052093">KB0052093</a>'
   },
   {
     ci: "MAC OS",
@@ -202,7 +202,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Wifi/Bluetooth/Lan",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Fixed MSFT connect issue",
-    kb: "KB0058117"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0058117">KB0058117</a>'
   },
   {
     ci: "MAC OS",
@@ -211,7 +211,7 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Wifi/Bluetooth/Lan",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Registered MAC address to Corp net",
-    kb: "KB0058117"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0058117">KB0058117</a>'
   },
   {
     ci: "MAC OS",
@@ -220,6 +220,6 @@ window.TAXONOMY_DATA["MAC OS"] = [
     roleComponent: "Wifi/Bluetooth/Lan",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Registered for Guest network",
-    kb: "KB0058117"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0058117">KB0058117</a>'
   }
 ];

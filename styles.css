@@ -1288,3 +1288,43 @@ tbody tr.selected-row td{
 .top-right-image__sun { opacity: 0; }
 [data-theme="light"] .top-right-image__moon { opacity: 0; }
 [data-theme="light"] .top-right-image__sun { opacity: 1; }
+
+/* ===== ServiceNow KB links ===== */
+.kb-link {
+  color: #4da3ff;
+  text-decoration: none;
+  border-bottom: 1px dotted currentColor;
+  font-weight: 600;
+  cursor: pointer;
+}
+.kb-link:hover,
+.kb-link:focus {
+  color: #82c0ff;
+  border-bottom-style: solid;
+}
+[data-theme="light"] .kb-link {
+  color: #0b5cad;
+}
+[data-theme="light"] .kb-link:hover,
+[data-theme="light"] .kb-link:focus {
+  color: #073d75;
+}
+
+/* Whole KB box in the popup opens the ServiceNow article */
+.pill.pill-clickable {
+  cursor: pointer;
+}
+.pill.pill-clickable:hover {
+  border-color: var(--accent);
+}
+.pill.pill-clickable:hover::before {
+  opacity: 1;
+}
+.pill.pill-clickable:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+.modal .kb-link::after {
+  content: " \2197";
+  font-size: 0.85em;
+}

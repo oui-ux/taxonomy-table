@@ -12,7 +12,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "Reimage request",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Reimaged and Joined to Entra ID",
-    kb: "KB0056886" // in Taxonomy Tables.xlsx snippet
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0056886">KB0056886</a>' // in Taxonomy Tables.xlsx snippet
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   {
@@ -22,7 +22,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "HAADJ to Microsoft Entra ID Migration",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Device Migrated from HAADJ to Entra ID",
-    kb: "KB0072374" // in Taxonomy Tables.xlsx snippet
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0072374">KB0072374</a>' // in Taxonomy Tables.xlsx snippet
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   {
@@ -32,7 +32,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "Device compliance",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Fixed issues with Device Compliance",
-    kb: "KB0062031" // in Taxonomy Tables.xlsx snippet
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0062031">KB0062031</a>' // in Taxonomy Tables.xlsx snippet
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   // From your screenshot/list
@@ -63,7 +63,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "Windows Profile",
     closeCode: "Resolved Technical issue",
     subCloseCode: "User account synchronized",
-    kb: "KB0062031" // in Taxonomy Tables.xlsx snippet
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0062031">KB0062031</a>' // in Taxonomy Tables.xlsx snippet
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
   {
     ci: "Windows 11",
@@ -161,7 +161,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "Drivers",
     closeCode: "Resolved Technical issue",
     subCloseCode: "BIOS/TPM/Device Drivers updated",
-    kb: "KB0070585"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0070585">KB0070585</a>'
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   {
@@ -171,7 +171,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "Drivers",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Updated OS to latest Version",
-    kb: "KB0064691"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0064691">KB0064691</a>'
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   {
@@ -181,7 +181,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "Firmware",
     closeCode: "Resolved Technical issue",
     subCloseCode: "BIOS/TPM/Device Drivers updated",
-    kb: "KB0070585"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0070585">KB0070585</a>'
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   {
@@ -191,7 +191,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "Firmware",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Updated OS to latest Version",
-    kb: "KB0064691"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0064691">KB0064691</a>'
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   {
@@ -201,7 +201,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "Windows Update",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Updated OS to latest Version",
-    kb: "KB0064691"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0064691">KB0064691</a>'
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   {
@@ -211,7 +211,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "Device Slowness",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Cleared unwanted cache files",
-    kb: "KB0064005"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0064005">KB0064005</a>'
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   {
@@ -221,7 +221,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "Device Slowness",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Reimaged and Joined to Entra ID",
-    kb: "KB0056886"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0056886">KB0056886</a>'
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   // ==========================================================
@@ -234,7 +234,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "Missing Applications",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Installed missing windows default apps",
-    kb: "KB0069762"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0069762">KB0069762</a>'
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   {
@@ -244,7 +244,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "MSRA installation",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Installed MSRA app from CP/SW center",
-    kb: "KB0037156"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0037156">KB0037156</a>'
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   {
@@ -254,7 +254,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "Hyper-V",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Hyper-V setup",
-    kb: "KB0018497"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0018497">KB0018497</a>'
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   {
@@ -306,7 +306,7 @@ window.TAXONOMY_DATA["Windows 11"] = [
     roleComponent: "BSOD",
     closeCode: "Resolved Technical issue",
     subCloseCode: "Reimaged and Joined to Entra ID",
-    kb: "KB0056886"
+    kb: '<a href="https://microsoft.service-now.com/kb_view.do?sysparm_article=KB0056886">KB0056886</a>'
   }, // [1](https://microsoft.sharepoint.com/teams/Resourceportal/_layouts/15/Doc.aspx?sourcedoc=%7B1C4CFC1E-875C-4861-B1F3-6A2514D3F45C%7D&file=Taxonomy%20Tables.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1)
 
   // ==========================================================
