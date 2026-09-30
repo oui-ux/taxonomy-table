@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Taxonomy Table</title>
+
+  <!-- CSS intentionally unchanged -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="app">
+
+    <!-- THEME TOGGLE -->
+    <div class="theme-toggle">
+      <button id="themeToggle" class="theme-btn" aria-label="Toggle theme">
+        <span class="theme-icon">🌙</span>
+        <span class="theme-text"></span>
+      </button>
+    </div>
+
+    <!-- TOP RIGHT IMAGE -->
+    <div class="top-right-image">
+      <img class="top-right-image__moon" src="moon.png" alt="Moon icon" />
+      <img class="top-right-image__sun" src="sun.webp" alt="Sun icon" />
+    </div>
+
+    <!-- LEFT PATH PANEL -->
+    <aside class="taxonomy-path-panel">
+      <div class="panel-title">Full Taxonomy Path</div>
+      <div id="pathText" class="path">—</div>
+    </aside>
+
+    <!-- HEADER -->
+    <header class="header">
+      <h1>Taxonomy Table</h1>
+    </header>
+
+    <!-- CONTROLS -->
+    <section class="card controls">
+      <div class="compact-column-search">
+        <input id="searchInput" type="search" placeholder="Search any column..." disabled aria-label="Search any taxonomy column" />
+      </div>
+      <div class="field ci-combobox-field">
+        <label for="ciSearchInput">CI</label>
+        <div id="ciCombobox" class="ci-combobox">
+          <input id="ciSearchInput" type="search" placeholder="Select or search CI..." autocomplete="off" aria-expanded="false" aria-controls="ciSearchResults" />
+          <button id="ciDropdownButton" class="ci-dropdown-button" type="button" aria-label="Open CI list">⌄</button>
+          <div id="ciSearchResults" class="ci-search-results" hidden></div>
+        </div>
+        <select id="ciSelect" class="ci-hidden-select" tabindex="-1" aria-hidden="true">
+          <option value="" disabled selected>— Select CI —</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="s_cat">Category</label>
+        <select id="s_cat" class="dropdown-select-outline">
+          <option value="">Any category</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="s_sub">Sub Category</label>
+        <select id="s_sub" class="dropdown-select-outline">
+          <option value="">Any sub category</option>
+        </select>
+      </div>
+
+      <div class="field">
+        <label for="s_role">Role Component</label>
+        <select id="s_role" class="dropdown-select-outline">
+          <option value="">Any role component</option>
+        </select>
+      </div>
+
+      <div class="actions">
+        <button id="filterBtn" class="btn btn-primary" disabled>Filter</button>
+        <button id="clearBtn" class="btn" disabled>Clear</button>
+      </div>
+    </section>
+
+    <!-- TABLE -->
+    <section class="card table-card">
+      <div class="table-head">
+        <h2 id="tableTitle">No CI selected</h2>
+        <span id="tableMeta" class="table-meta">—</span>
+      </div>
+
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>CI</th>
+              <th>Category</th>
+              <th>Sub Category</th>
+              <th>Role Component</th>
+              <th>Close Code</th>
+              <th>Sub CloseCode</th>
+              <th>KB</th>
+            </tr>
+          </thead>
+          <tbody id="tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+  </div>
+
+  <!-- SELECTED TAXONOMY POPUP -->
+  <div id="taxModalOverlay" class="modal-overlay" hidden>
+    <div class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <button id="modalCloseBtn" class="modal-close" aria-label="Close">&times;</button>
+
+      <div class="modal-header">
+        <span class="modal-eyebrow">Selected Taxonomy</span>
+        <h2 id="modalTitle">—</h2>
+      </div>
+
+      <div class="modal-grid">
+        <div class="pill"><span class="k">Category</span><span id="m_cat" class="v">—</span></div>
+        <div class="pill"><span class="k">Sub Category</span><span id="m_sub" class="v">—</span></div>
+        <div class="pill"><span class="k">Role Component</span><span id="m_role" class="v">—</span></div>
+        <div class="pill"><span class="k">Close Code</span><span id="m_close" class="v">—</span></div>
+        <div class="pill"><span class="k">Sub CloseCode</span><span id="m_subclose" class="v">—</span></div>
+        <div class="pill"><span class="k">KB</span><span id="m_kb" class="v">—</span></div>
+      </div>
+
+      <div class="path-wrap">
+        <span class="path-label">Full Path</span>
+        <div id="modalPathText" class="path">—</div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+   
+  </footer>
+
+<!-- INIT FIRST -->
+<script src="data/_init.js"></script>
+<script src="data/windows10.js"></script>
+<script src="data/windows11.js"></script>
+<script src="data/windows-hello.js"></script>
+<script src="data/cloud-mfa.js"></script>
+<script src="data/azure-vpn.js"></script>
+<script src="data/ios-new.js"></script>
+<script src="data/authenticator-app-ios.js"></script>
+<script src="data/outlook-for-ios.js"></script>
+<script src="data/identity-pass.js"></script>
+<script src="data/android.js"></script>
+<script src="data/authenticator-app-android.js"></script>
+<script src="data/outlook-for-android.js"></script>
+<script src="data/outlook-for-windows(classic).js"></script>
+<script src="data/power-bi.js"></script>
+<script src="data/mac-os.js"></script>  
+<script src="data/physical-smartcard.js"></script>
+<script src="data/microsoft-dev-box.js"></script>
+<script src="data/globalprotect-desktop.js"></script>
+<script src="data/outlook-for-mac.js"></script>
+<script src="data/microsoft-office-visio-2016-rtm.js"></script>
+<script src="data/microsoft-office-project-2016-rtm.js"></script>
+<script src="data/microsoft-office-access-2016-rtm.js"></script>
+<script src="data/Microsoft-Office-Word-2016-RTM.js"></script>
+<script src="data/sharepoint-online-o365.js"></script>
+<script src="data/onedrive-for-business.js"></script>
+<script src="data/microsoft-surface.js"></script>
+
+
+                  
+  <script src="app.js" defer></script>
+</body>
+</html>
